@@ -28,6 +28,69 @@
           "availability_verified": false
         }
       ]
+    },
+    {
+      "post_id": "2026-10-13-seven-slide-ai-review-package",
+      "published_at": "2026-10-13T22:33:39.609784+00:00",
+      "instagram_media_id": "18130075471830452",
+      "title": "6 Chic Fall Finds · October 13",
+      "image_url": "https://anushasabhapathi-art.github.io/chic-finds-images/carousels/fall-finds-approved-2026-10-13/slide_01.jpg",
+      "products": [
+        {
+          "name": "Rib-Knit Cardigan cream black bow",
+          "brand": "H&M",
+          "variant": "",
+          "sku": "",
+          "price_label": "Check current price at retailer",
+          "url": "https://www2.hm.com/en_us/productpage.1300747002.html",
+          "availability_verified": false
+        },
+        {
+          "name": "100% Cotton Relaxed Crop Cardigan Off White",
+          "brand": "Gap",
+          "variant": "",
+          "sku": "",
+          "price_label": "Check current price at retailer",
+          "url": "https://www.gap.com/browse/product.do?pid=8816350420000",
+          "availability_verified": false
+        },
+        {
+          "name": "I.N.C. Large Pavé Medium Hoop Earrings 2 inch Silver",
+          "brand": "Macy's",
+          "variant": "",
+          "sku": "",
+          "price_label": "Check current price at retailer",
+          "url": "https://www.macys.com/shop/product/inc-international-concepts-pave-hoop-2-3-1-2-earrings-in-gold-or-silver-created-for-macys?ID=12396310",
+          "availability_verified": false
+        },
+        {
+          "name": "CashSoft Crop Cardigan Modern Red",
+          "brand": "Gap",
+          "variant": "",
+          "sku": "",
+          "price_label": "Check current price at retailer",
+          "url": "https://www.gap.com/browse/product.do?pid=8005462420104",
+          "availability_verified": false
+        },
+        {
+          "name": "Dark beige cardigan",
+          "brand": "H&M",
+          "variant": "",
+          "sku": "",
+          "price_label": "Check current price at retailer",
+          "url": "https://www2.hm.com/en_us/productpage.1320216001.html",
+          "availability_verified": false
+        },
+        {
+          "name": "A New Day Pink Plaid Bow-Front Midi A-Line Dress XS",
+          "brand": "Target",
+          "variant": "",
+          "sku": "",
+          "price_label": "Check current price at retailer",
+          "url": "https://www.target.com/p/-/A-94919551",
+          "availability_verified": false
+        }
+      ]
     }
   ]
 }
