@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "updated_at": "2026-10-14T16:35:51Z",
+  "posts": [
+    {
+      "post_id": "2026-10-14-kate-spade-approved-image",
+      "published_at": "2026-10-14T16:35:51Z",
+      "instagram_media_id": "18630497407034879",
+      "title": "Kate Spade Finds · October 14",
+      "image_url": "https://anushasabhapathi-art.github.io/chic-finds-images/daily/2026-10-14/a_clean_styled_fashion_promo_collage_graphic_on_a.png",
+      "products": [
+        {
+          "name": "Spot the Spade Enamel Hinged Bangle",
+          "brand": "Kate Spade Outlet",
+          "variant": "White",
+          "sku": "KJ727",
+          "price_label": "Previously listed at $38",
+          "url": "https://www.katespadeoutlet.com/products/spot-the-spade-enamel-hinged-bangle/KJ727%20WHT.html",
+          "availability_verified": false
+        },
+        {
+          "name": "Everyday Spade Enamel Studs",
+          "brand": "Kate Spade Outlet",
+          "variant": "Pink",
+          "sku": "KO188",
+          "price_label": "Previously listed at $38",
+          "url": "https://www.katespadeoutlet.com/products/everyday-spade-enamel-studs/KO188%20PIN.html",
+          "availability_verified": false
+        }
+      ]
+    }
+  ]
+}
