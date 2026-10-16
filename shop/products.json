@@ -3,6 +3,36 @@
   "updated_at": "2026-10-16T17:30:46.427208+00:00",
   "posts": [
     {
+      "post_id": "2026-10-16-target-three-chic-finds-reel",
+      "status": "pending_user_reel_approval",
+      "reviewed_by_user": true,
+      "title": "3 Chic Finds · Target Edit",
+      "image_url": "https://anushasabhapathi-art.github.io/chic-finds-images/daily/2026-10-16-target-three-chic-finds-reel/cover.jpg",
+      "products": [
+        {
+          "name": "Women's Pointelle Lady Cardigan Sweater",
+          "brand": "A New Day",
+          "variant": "Cream",
+          "price_label": "Retailer listed $35",
+          "url": "https://www.target.com/p/-/A-95063590"
+        },
+        {
+          "name": "Slouchy Faux Suede Tote Handbag",
+          "brand": "Universal Thread",
+          "variant": "Brown",
+          "price_label": "Retailer listed $35",
+          "url": "https://www.target.com/p/-/A-94569132"
+        },
+        {
+          "name": "Textured Hoop Earrings",
+          "brand": "A New Day",
+          "variant": "Gold",
+          "price_label": "Retailer listed $7.99",
+          "url": "https://www.target.com/p/-/A-53516980"
+        }
+      ]
+    },
+    {
       "post_id": "2026-10-14-three-affordable-fall-finds-reel",
       "published_at": "2026-10-16T17:30:46.427208+00:00",
       "instagram_media_id": "18415253440087914",
