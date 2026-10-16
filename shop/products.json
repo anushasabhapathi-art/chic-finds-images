@@ -1,7 +1,43 @@
 {
   "version": 1,
-  "updated_at": "2026-10-14T16:35:51.252188+00:00",
+  "updated_at": "2026-10-16T17:37:00Z",
   "posts": [
+    {
+      "post_id": "2026-10-16-chic-target-capsule-review",
+      "published_at": null,
+      "status": "pending_user_reel_approval",
+      "title": "3 Chic Finds · $35 or Less · Target",
+      "image_url": null,
+      "products": [
+        {
+          "name": "Pointelle Lady Cardigan Sweater",
+          "brand": "A New Day",
+          "variant": "Cream",
+          "sku": "A-95063582",
+          "price_label": "Listed $35.00 (observed Oct 16; confirm at checkout)",
+          "url": "https://www.target.com/p/-/A-95063582",
+          "availability_verified": false
+        },
+        {
+          "name": "Slouchy Faux Suede Tote Handbag",
+          "brand": "Universal Thread",
+          "variant": "Brown",
+          "sku": "A-94569132",
+          "price_label": "Listed $35.00 (observed Oct 16; confirm at checkout)",
+          "url": "https://www.target.com/p/-/A-94569132",
+          "availability_verified": false
+        },
+        {
+          "name": "Textured Hoop Earrings",
+          "brand": "A New Day",
+          "variant": "Gold",
+          "sku": "A-94886485",
+          "price_label": "Listed $9.99 (observed Oct 16; confirm at checkout)",
+          "url": "https://www.target.com/p/-/A-94886485",
+          "availability_verified": false
+        }
+      ]
+    },
     {
       "post_id": "2026-10-14-kate-spade-approved-image",
       "published_at": "2026-10-14T16:35:51.252188+00:00",
