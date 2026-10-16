@@ -1,10 +1,10 @@
 {
   "version": 1,
-  "updated_at": "2026-10-16T17:30:46.427208+00:00",
+  "updated_at": "2026-10-16T17:56:35Z",
   "posts": [
     {
       "post_id": "2026-10-16-target-three-chic-finds-reel",
-      "status": "pending_user_reel_approval",
+      "status": "published",
       "reviewed_by_user": true,
       "title": "3 Chic Finds · Target Edit",
       "image_url": "https://anushasabhapathi-art.github.io/chic-finds-images/daily/2026-10-16-target-three-chic-finds-reel/cover.jpg",
@@ -30,7 +30,9 @@
           "price_label": "Retailer listed $7.99",
           "url": "https://www.target.com/p/-/A-53516980"
         }
-      ]
+      ],
+      "instagram_media_id": "18102423257158468",
+      "published_at": "2026-10-16T17:56:35Z"
     },
     {
       "post_id": "2026-10-14-three-affordable-fall-finds-reel",
