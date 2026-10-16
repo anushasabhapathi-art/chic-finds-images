@@ -1,42 +1,7 @@
 {
   "version": 1,
-  "updated_at": "2026-10-16T17:42:00Z",
+  "updated_at": "2026-10-16T17:30:46.427208+00:00",
   "posts": [
-    {
-      "post_id": "2026-10-16-target-three-chic-finds-reel",
-      "status": "pending_user_reel_approval",
-      "title": "3 Chic Finds · Target Edit · October 16",
-      "image_url": null,
-      "products": [
-        {
-          "name": "Women's Pointelle Lady Cardigan Sweater",
-          "brand": "A New Day",
-          "variant": "Cream",
-          "sku": "95063590",
-          "price_label": "Retailer listed $35.00 on Oct 16; check current price",
-          "url": "https://www.target.com/p/-/A-95063590",
-          "availability_verified": false
-        },
-        {
-          "name": "Slouchy Faux Suede Tote Handbag",
-          "brand": "Universal Thread",
-          "variant": "Brown",
-          "sku": "94569132",
-          "price_label": "Retailer listed $35.00 on Oct 16; check current price",
-          "url": "https://www.target.com/p/-/A-94569132",
-          "availability_verified": false
-        },
-        {
-          "name": "Textured Hoop Earrings",
-          "brand": "A New Day",
-          "variant": "Gold",
-          "sku": "53516980",
-          "price_label": "Retailer listed $7.99 on Oct 16; check current price",
-          "url": "https://www.target.com/p/-/A-53516980",
-          "availability_verified": false
-        }
-      ]
-    },
     {
       "post_id": "2026-10-14-three-affordable-fall-finds-reel",
       "published_at": "2026-10-16T17:30:46.427208+00:00",
