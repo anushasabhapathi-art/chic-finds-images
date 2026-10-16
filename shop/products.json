@@ -1,38 +1,42 @@
 {
   "version": 1,
-  "updated_at": "2026-10-16T17:56:35Z",
+  "updated_at": "2026-10-16T17:56:35.417772+00:00",
   "posts": [
     {
       "post_id": "2026-10-16-target-three-chic-finds-reel",
-      "status": "published",
-      "reviewed_by_user": true,
-      "title": "3 Chic Finds · Target Edit",
+      "published_at": "2026-10-16T17:56:35.417772+00:00",
+      "instagram_media_id": "18102423257158468",
+      "title": "3 Chic Finds for $35 or Less",
       "image_url": "https://anushasabhapathi-art.github.io/chic-finds-images/daily/2026-10-16-target-three-chic-finds-reel/cover.jpg",
       "products": [
         {
           "name": "Women's Pointelle Lady Cardigan Sweater",
           "brand": "A New Day",
           "variant": "Cream",
-          "price_label": "Retailer listed $35",
-          "url": "https://www.target.com/p/-/A-95063590"
+          "sku": "",
+          "price_label": "Previously listed at $35",
+          "url": "https://www.target.com/p/-/A-95063590",
+          "availability_verified": true
         },
         {
           "name": "Slouchy Faux Suede Tote Handbag",
           "brand": "Universal Thread",
           "variant": "Brown",
-          "price_label": "Retailer listed $35",
-          "url": "https://www.target.com/p/-/A-94569132"
+          "sku": "",
+          "price_label": "Previously listed at $35",
+          "url": "https://www.target.com/p/-/A-94569132",
+          "availability_verified": true
         },
         {
           "name": "Textured Hoop Earrings",
           "brand": "A New Day",
           "variant": "Gold",
-          "price_label": "Retailer listed $7.99",
-          "url": "https://www.target.com/p/-/A-53516980"
+          "sku": "",
+          "price_label": "Previously listed at $7.99",
+          "url": "https://www.target.com/p/-/A-53516980",
+          "availability_verified": true
         }
-      ],
-      "instagram_media_id": "18102423257158468",
-      "published_at": "2026-10-16T17:56:35Z"
+      ]
     },
     {
       "post_id": "2026-10-14-three-affordable-fall-finds-reel",
