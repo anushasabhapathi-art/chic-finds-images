@@ -22,7 +22,7 @@ h1{font-family:Georgia,"Times New Roman",serif;font-size:clamp(38px,8vw,62px);fo
 #message{color:#785a50;font-size:14px;line-height:1.5}footer{text-align:center;border-top:1px solid #eadcd4;padding:24px 0;font-size:12px;color:#876d64}
 @media(max-width:620px){header{padding-top:35px}.post{grid-template-columns:1fr;gap:16px;padding:12px}.post h3{font-size:25px}.wrap{padding:20px 14px 45px}}
 </style></head>
-<body><div class="wrap"><header><div class="eyebrow">Curated discoveries · Easy shopping</div><h1>The Chic Finds Edit</h1><p class="subtitle">The pieces behind our latest Instagram looks, all in one place. New finds appear here after their Instagram posts are confirmed live.</p><a class="profile" href="https://www.instagram.com/thechicfindsedit/" target="_blank" rel="noopener noreferrer">Follow @thechicfindsedit ↗</a></header>
+<body><div class="wrap"><header><div class="eyebrow">Curated discoveries · Easy shopping</div><h1>The Chic Finds Edit</h1><p class="subtitle">The pieces behind our latest Instagram looks, all in one place. Shop exact product links for our published posts and upcoming finds in review.</p><a class="profile" href="https://www.instagram.com/thechicfindsedit/" target="_blank" rel="noopener noreferrer">Follow @thechicfindsedit ↗</a></header>
 <main class="section"><h2>Shop the latest posts</h2><div id="message" role="status">Loading latest finds…</div><div id="posts"></div><p class="note">Prices and stock can change at any time. Always confirm the current price, color, and availability with the retailer before ordering. Some visuals are AI-generated styling concepts and may differ from the actual product. This page may contain affiliate links.</p></main>
 <footer>© The Chic Finds Edit · Thoughtfully curated fashion finds</footer></div>
 <script>
@@ -31,13 +31,13 @@ const root=document.getElementById('posts'),msg=document.getElementById('message
 const el=(name,cls,text)=>{let n=document.createElement(name);if(cls)n.className=cls;if(text!==undefined)n.textContent=text;return n};
 const safeUrl=(str)=>{try{const u=new URL(str);return u.protocol==='https:'?u.href:null}catch{return null}};
 fetch('./products.json',{cache:'no-store'}).then(r=>{if(!r.ok)throw Error('catalog unavailable');return r.json()}).then(c=>{
- const posts=Array.isArray(c.posts)?c.posts.filter(p=>p.instagram_media_id&&Array.isArray(p.products)&&p.products.length):[];
+ const posts=Array.isArray(c.posts)?c.posts.filter(p=>(p.instagram_media_id||p.status==='pending_user_reel_approval')&&Array.isArray(p.products)&&p.products.length):[];
  posts.sort((a,b)=>(b.published_at||'').localeCompare(a.published_at||''));
  msg.textContent=posts.length?'':'No published shopping finds yet. Check back soon!';
  for(const p of posts){
  const article=el('article','post');const imgurl=safeUrl(p.image_url);
  if(imgurl){const img=el('img','photo');img.src=imgurl;img.alt=(p.title||'Fashion finds')+' product-inspired editorial';img.loading='lazy';article.append(img)}
- const info=el('div','');info.append(el('div','date',new Date(p.published_at).toLocaleDateString('en-US',{month:'long',day:'numeric',year:'numeric'})));info.append(el('h3','',p.title||'Latest fashion finds'));
+ const info=el('div','');info.append(el('div','date',p.published_at?new Date(p.published_at).toLocaleDateString('en-US',{month:'long',day:'numeric',year:'numeric'}):'New Finds · Reel in Review'));info.append(el('h3','',p.title||'Latest fashion finds'));
  for(const product of p.products){const item=el('section','item');item.append(el('div','product',product.name||'Fashion find'));
  item.append(el('div','detail',[product.brand,product.variant,product.price_label].filter(Boolean).join(' · ')));
  const href=safeUrl(product.url);if(href){const a=el('a','cta','Shop at retailer ↗');a.href=href;a.target='_blank';a.rel='noopener noreferrer sponsored';item.append(a)}
