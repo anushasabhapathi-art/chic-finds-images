@@ -1,39 +1,39 @@
 {
   "version": 1,
-  "updated_at": "2026-10-16T17:37:00Z",
+  "updated_at": "2026-10-16T17:30:46.427208+00:00",
   "posts": [
     {
-      "post_id": "2026-10-16-chic-target-capsule-review",
-      "published_at": null,
-      "status": "pending_user_reel_approval",
-      "title": "3 Chic Finds · $35 or Less · Target",
-      "image_url": null,
+      "post_id": "2026-10-14-three-affordable-fall-finds-reel",
+      "published_at": "2026-10-16T17:30:46.427208+00:00",
+      "instagram_media_id": "18415253440087914",
+      "title": "3 Fall Finds That Look Expensive",
+      "image_url": "https://anushasabhapathi-art.github.io/chic-finds-images/daily/2026-10-16-three-fall-finds-price-corrected/cover.jpg",
       "products": [
         {
-          "name": "Pointelle Lady Cardigan Sweater",
-          "brand": "A New Day",
-          "variant": "Cream",
-          "sku": "A-95063582",
-          "price_label": "Listed $35.00 (observed Oct 16; confirm at checkout)",
-          "url": "https://www.target.com/p/-/A-95063582",
+          "name": "Mini Vegan-Suede Handbag",
+          "brand": "Gap Factory",
+          "variant": "Chocolate Cake",
+          "sku": "779683",
+          "price_label": "Previously listed at $15.99",
+          "url": "https://www.gapfactory.com/browse/product.do?pid=7796830010000",
           "availability_verified": false
         },
         {
-          "name": "Slouchy Faux Suede Tote Handbag",
-          "brand": "Universal Thread",
-          "variant": "Brown",
-          "sku": "A-94569132",
-          "price_label": "Listed $35.00 (observed Oct 16; confirm at checkout)",
-          "url": "https://www.target.com/p/-/A-94569132",
+          "name": "Long-Sleeve Ruffle Tie-Neck Top",
+          "brand": "Old Navy",
+          "variant": "Brown Plaid",
+          "sku": "908818",
+          "price_label": "Previously listed at $5.97",
+          "url": "https://oldnavy.gap.com/browse/product.do?pid=9088180024002",
           "availability_verified": false
         },
         {
-          "name": "Textured Hoop Earrings",
-          "brand": "A New Day",
-          "variant": "Gold",
-          "sku": "A-94886485",
-          "price_label": "Listed $9.99 (observed Oct 16; confirm at checkout)",
-          "url": "https://www.target.com/p/-/A-94886485",
+          "name": "High-Waisted Baggy Wide-Leg Corduroy Pants",
+          "brand": "Old Navy",
+          "variant": "Grand Canyon",
+          "sku": "905523",
+          "price_label": "Previously listed at $29.99",
+          "url": "https://oldnavy.gap.com/browse/product.do?pid=9055230020004",
           "availability_verified": false
         }
       ]
